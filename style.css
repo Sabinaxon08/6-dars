@@ -1,0 +1,29 @@
+@media screen and (max-width: 986px) {
+    body {
+        background: black !important;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card .card-right {
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background: white !important;
+        color: blue !important;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .card .card-right {
+        gap: 20px
+    }
+}
